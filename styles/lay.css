@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:#DDD; font-family:Calibri; font-size:small; background-image:url(../images/images.jpg); background-attachment:fixed;}
+
+/* MISC Style */
+a{color:#39C; outline:none;}
+a:hover{color:#F00;}
+.msg{padding:10px; margin:10px 0px; border:1px solid #090; background-color:#9F9; color:#933; font-weight:bold; text-shadow:1px 0px 1px #FFF;}
+input[type="text"], input[type="password"], select, textarea{border:1px solid #333; padding:3px;}
+input[type="text"]:focus, input[type="password"]:focus, select:focus, textarea:focus{border:1px solid #999; padding:3px;}
+input[type="submit"]{padding:4px 10px;}
+td{padding:5px;}
+.logv{padding:5px; border-bottom:1px solid #9F9; margin-bottom:5px;}
+
+/* Layout Style */
+#all{border:1px solid #000; width:820px; margin:20px auto; min-height:500px; background-color:#000; opacity:0.95; border-radius:5px;}
+#all #cont{width:800px; margin:20px auto; min-height:500px; background-color:#FFF; border-radius:5px; opacity:1;}
+
+/* Header Style */
+#all #cont #header{min-height:80px; border-bottom:1px solid #999;}
+#all #cont #header #hd_rz{padding:10px;}
+#all #cont #header #hd_rz .hd_logo{font-size:24px;}
+#all #cont #header #hd_rz .hd_logo span{color:#930; font-size:28px; font-family:Impact; margin-right:10px;}
+#all #cont #header #hd_rz .hd_logo span.sub{font-size:x-small; color:#930; font-family:Calibri; margin-left:80px;}
+
+/* Content Style */
+#all #cont #contents{padding:10px;}
+#all #cont #contents .cont_right{float:right; width:250px;}
+#all #cont #contents .cont_left{margin-right:260px;}
+.page_title{font-size:38px; color:#09F;}
+
+#all #cont #contents .cont_right .gadget{}
+#all #cont #contents .cont_right .gadget .g_hd{border:1px solid #999; border-radius:5px; padding:5px; font-size:medium; background-color:#DDD; text-transform:uppercase;}
+#all #cont #contents .cont_right .gadget .g_hd:before{content:'>> ';}
+#all #cont #contents .cont_right .gadget .g_cont{padding:10px; border-bottom:1px solid #999; margin-bottom:10px;}
+.menu{overflow:auto;}
+.menu ul{margin:0px; padding:0px;}
+.menu ul li{list-style-type:none; margin-bottom:5px;}
+.menu ul li a{display:block; padding:5px; border:1px solid #999; font-weight:bold; background-color:#FFF;}
+
+/* Footer Style */
+#all #footer{width:800px; margin:auto;}
+#all #footer .ft_rz{padding:10px; color:#EEE;}
+
+/* Table List Style */
+.utable{width:100%;}
+.utable .tb_hd{background-color:#0C9;}
+.utable .tb_hd td{padding:5px; border:1px solid #063; font-weight:bold; text-shadow:1px 0px 1px #FFF;}
+.utable td{padding:5px; border:1px solid #DDD;}
+
+/* Park Space Style */
+.space{min-height:110px; background-image:url(../images/sensors.jpg); background-repeat:no-repeat; background-position:top left; padding:5px 10px 5px 60px; margin:40px 0px;}
+.space .sp_cat{width:100px; height:52px; float:left; border-bottom:3px double #CCC; border-left:3px double #CCC;}
+.space .sp_cat_alt{width:100px; height:52px; float:left; border-bottom:none; border-left:3px double #CCC;}
+.space .sp_cat_last{width:100px; height:52px; float:left; border-bottom:3px double #CCC; border-right:3px double #CCC; border-left:3px double #CCC;}
+.space .sp_cat_alt_last{width:100px; height:52px; float:left; border-bottom:none; border-right:3px double #CCC; border-left:3px double #CCC;}
+.space .sp_cat img, .space .sp_cat_alt img, .space .sp_cat_last img, .space .sp_cat_alt_last img{float:left; margin-right:5px;}
